@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /private/
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /wp-admin/
+Disallow: /wp-login.php
+Allow: /
+
+# Sitemap
+Sitemap: https://www.dmuriherbal.com/sitemap.xml
