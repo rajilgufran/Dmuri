@@ -122,17 +122,40 @@
             "@type": "Brand",
             "name": "Dmuri Herbal"
           },
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "IDR",
-          "price": "50000",
-          "availability": "https://schema.org/InStock",
-          "url": "https://www.dmuriherbal.com/produk.html",
-          "hasMerchantReturnPolicy": {
-            "@type": "MerchantReturnPolicy",
-            "returnPolicyCategory": "https://schema.org/NoReturns"
-          }
-        },
+"offers": {
+  "@type": "Offer",
+  "priceCurrency": "IDR",
+  "price": "50000",
+  "availability": "https://schema.org/InStock",
+  "url": "https://www.dmuriherbal.com/produk.html",
+  "hasMerchantReturnPolicy": {
+    "@type": "MerchantReturnPolicy",
+    "returnPolicyCategory": "https://schema.org/NoReturns"
+  },
+  "shippingDetails": {
+    "@type": "OfferShippingDetails",
+    "shippingRate": {
+      "@type": "MonetaryAmount",
+      "value": "0",
+      "currency": "IDR"
+    },
+    "deliveryTime": {
+      "@type": "ShippingDeliveryTime",
+      "handlingTime": {
+        "@type": "QuantitativeValue",
+        "minValue": 1,
+        "maxValue": 2,
+        "unitCode": "d"
+      },
+      "transitTime": {
+        "@type": "QuantitativeValue",
+        "minValue": 1,
+        "maxValue": 5,
+        "unitCode": "d"
+      }
+    }
+  }
+},
         {
             "@type": "Product",
             "name": "Kopi Bongkar",
