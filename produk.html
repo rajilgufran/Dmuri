@@ -37,182 +37,292 @@
 <!-- Favicon -->
 <link rel="icon" type="image/png" href="assets/favicon.ico">
 <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "WebSite",
-          "@id": "https://dmuriherbal.com/",
-          "url": "https://dmuriherbal.com/",
-          "name": "Dmuri Herbal",
-          "description": "Distributor Obat Herbal Indonesia",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Dmuri Herbal",
-            "url": "https://dmuriherbal.com/",
-            "logo": {
-              "@type": "ImageObject",
-              "url": "https://dmuriherbal.com/assets/favicon.ico"
-            }
-          }
-        },
-        {
-          "@type": "Organization",
-          "name": "Dmuri Herbal",
-          "url": "https://dmuriherbal.com/",
-          "logo": "https://dmuriherbal.com/assets/favicon.ico",
-          "contactPoint": {
-            "@type": "ContactPoint",
-            "telephone": "+62-812-3000-4796",
-            "contactType": "customer service",
-            "availableLanguage": "Indonesian"
-          },
-          "sameAs": [
-            "https://id.shp.ee/43f7AVF",
-            "https://wa.me/6281230004796"
-          ]
-        },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://dmuriherbal.com/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Produk",
-              "item": "https://dmuriherbal.com/produk.html"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Kontak",
-              "item": "https://dmuriherbal.com/contact.html"
-            }
-          ]
-        },
-        {
-          "@type": "Product",
-          "name": "Kopi Dynamic",
-          "image": "https://dmuriherbal.com/assets/img/kopi-dynamic/kopidynamic.png",
-          "description": "Kopi Dynamic adalah Minuman Kopi yang cocok diminum untuk Pria dan Wanita.",
-          "brand": {
-            "@type": "Brand",
-            "name": "Dmuri Herbal"
-          },
-          "offers": {
-            "@type": "Offer",
-            "url": "https://dmuriherbal.com/kopi-dynamic.html",
-            "priceCurrency": "IDR",
-            "price": "150000",
-            "itemCondition": "https://schema.org/NewCondition",
-            "availability": "https://schema.org/InStock"
-          }
-        },
-        {
-          "@type": "Product",
-          "name": "Susu Dyco Kolostrum",
-          "image": "https://dmuriherbal.com/assets/img/susu/boxsusu.jpg",
-          "description": "Susu Kolostrum Dyco mengandung faktor imun dan berkalsium tinggi untuk kesehatan.",
-          "brand": {
-            "@type": "Brand",
-            "name": "Dmuri Herbal"
-          },
-"offers": {
-  "@type": "Offer",
-  "priceCurrency": "IDR",
-  "price": "50000",
-  "availability": "https://schema.org/InStock",
-  "url": "https://www.dmuriherbal.com/produk.html",
-  "hasMerchantReturnPolicy": {
-    "@type": "MerchantReturnPolicy",
-    "returnPolicyCategory": "https://schema.org/NoReturns"
-  },
-  "shippingDetails": {
-    "@type": "OfferShippingDetails",
-    "shippingRate": {
-      "@type": "MonetaryAmount",
-      "value": "0",
-      "currency": "IDR"
+      "@type": "WebSite",
+      "@id": "https://dmuriherbal.com/",
+      "url": "https://dmuriherbal.com/",
+      "name": "Dmuri Herbal",
+      "description": "Distributor Obat Herbal Indonesia",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Dmuri Herbal",
+        "url": "https://dmuriherbal.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://dmuriherbal.com/assets/favicon.ico"
+        }
+      }
     },
-    "deliveryTime": {
-      "@type": "ShippingDeliveryTime",
-      "handlingTime": {
-        "@type": "QuantitativeValue",
-        "minValue": 1,
-        "maxValue": 2,
-        "unitCode": "d"
+    {
+      "@type": "Organization",
+      "name": "Dmuri Herbal",
+      "url": "https://dmuriherbal.com/",
+      "logo": "https://dmuriherbal.com/assets/favicon.ico",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+62-812-3000-4796",
+        "contactType": "customer service",
+        "availableLanguage": "Indonesian"
       },
-      "transitTime": {
-        "@type": "QuantitativeValue",
-        "minValue": 1,
-        "maxValue": 5,
-        "unitCode": "d"
+      "sameAs": [
+        "https://id.shp.ee/43f7AVF",
+        "https://wa.me/6281230004796"
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://dmuriherbal.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Produk",
+          "item": "https://dmuriherbal.com/produk.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Kontak",
+          "item": "https://dmuriherbal.com/contact.html"
+        }
+      ]
+    },
+    {
+      "@type": "Product",
+      "name": "Kopi Dynamic",
+      "image": "https://dmuriherbal.com/assets/img/kopi-dynamic/kopidynamic.png",
+      "description": "Kopi Dynamic adalah Minuman Kopi yang cocok diminum untuk Pria dan Wanita.",
+      "brand": {
+        "@type": "Brand",
+        "name": "Dmuri Herbal"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://dmuriherbal.com/kopi-dynamic.html",
+        "priceCurrency": "IDR",
+        "price": "150000",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock",
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "returnPolicyCategory": "https://schema.org/NoReturns"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0",
+            "currency": "IDR"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 2,
+              "unitCode": "d"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 5,
+              "unitCode": "d"
+            }
+          }
+        }
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "Susu Dyco Kolostrum",
+      "image": "https://dmuriherbal.com/assets/img/susu/boxsusu.jpg",
+      "description": "Susu Kolostrum Dyco mengandung faktor imun dan berkalsium tinggi untuk kesehatan.",
+      "brand": {
+        "@type": "Brand",
+        "name": "Dmuri Herbal"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "IDR",
+        "price": "50000",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.dmuriherbal.com/produk.html",
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "returnPolicyCategory": "https://schema.org/NoReturns"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0",
+            "currency": "IDR"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 2,
+              "unitCode": "d"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 5,
+              "unitCode": "d"
+            }
+          }
+        }
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "Kopi Bongkar",
+      "image": "https://dmuriherbal.com/assets/img/kopi-bongkar.jpg",
+      "description": "Kopi Bongkar adalah minuman kopi herbal dengan kandungan alami yang memberikan energi ekstra.",
+      "brand": {
+        "@type": "Brand",
+        "name": "Dmuri Herbal"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://dmuriherbal.com/kopi-bongkar.html",
+        "priceCurrency": "IDR",
+        "price": "160000",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock",
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "returnPolicyCategory": "https://schema.org/NoReturns"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0",
+            "currency": "IDR"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 2,
+              "unitCode": "d"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 5,
+              "unitCode": "d"
+            }
+          }
+        }
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "Vcafe Volten",
+      "image": "https://dmuriherbal.com/assets/img/Volten Cafe/Vcafe-png.png",
+      "description": "Vcafe Volten adalah kopi premium dengan rasa khas yang cocok untuk pencinta kopi sejati.",
+      "brand": {
+        "@type": "Brand",
+        "name": "Dmuri Herbal"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://dmuriherbal.com/kopi-vcafe-volten.html",
+        "priceCurrency": "IDR",
+        "price": "170000",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock",
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "returnPolicyCategory": "https://schema.org/NoReturns"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0",
+            "currency": "IDR"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 2,
+              "unitCode": "d"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 5,
+              "unitCode": "d"
+            }
+          }
+        }
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "Vtaameen New Zealand Dairy Milk",
+      "image": "https://dmuriherbal.com/assets/img/Vtameen/Vtameen.jpg",
+      "description": "Vtaameen New Zealand Dairy Milk adalah susu berkualitas tinggi dengan kandungan gizi lengkap.",
+      "brand": {
+        "@type": "Brand",
+        "name": "Dmuri Herbal"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://dmuriherbal.com/susu-vtameen-volten.html",
+        "priceCurrency": "IDR",
+        "price": "180000",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock",
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "returnPolicyCategory": "https://schema.org/NoReturns"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0",
+            "currency": "IDR"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 2,
+              "unitCode": "d"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 5,
+              "unitCode": "d"
+            }
+          }
+        }
       }
     }
-  }
-},
-        {
-            "@type": "Product",
-            "name": "Kopi Bongkar",
-            "image": "https://dmuriherbal.com/assets/img/kopi-bongkar.jpg",
-            "description": "Kopi Bongkar adalah minuman kopi herbal dengan kandungan alami yang memberikan energi ekstra.",
-            "brand": {
-              "@type": "Brand",
-              "name": "Dmuri Herbal"
-            },
-            "offers": {
-              "@type": "Offer",
-              "url": "https://dmuriherbal.com/kopi-bongkar.html",
-              "priceCurrency": "IDR",
-              "price": "160000",
-              "itemCondition": "https://schema.org/NewCondition",
-              "availability": "https://schema.org/InStock"
-            }
-          },
-          {
-            "@type": "Product",
-            "name": "Vcafe Volten",
-            "image": "https://dmuriherbal.com/assets/img/Volten Cafe/Vcafe-png.png",
-            "description": "Vcafe Volten adalah kopi premium dengan rasa khas yang cocok untuk pencinta kopi sejati.",
-            "brand": {
-              "@type": "Brand",
-              "name": "Dmuri Herbal"
-            },
-            "offers": {
-              "@type": "Offer",
-              "url": "https://dmuriherbal.com/kopi-vcafe-volten.html",
-              "priceCurrency": "IDR",
-              "price": "170000",
-              "itemCondition": "https://schema.org/NewCondition",
-              "availability": "https://schema.org/InStock"
-            }
-          },
-          {
-            "@type": "Product",
-            "name": "Vtaameen New Zealand Dairy Milk",
-            "image": "https://dmuriherbal.com/assets/img/Vtameen/Vtameen.jpg",
-            "description": "Vtaameen New Zealand Dairy Milk adalah susu berkualitas tinggi dengan kandungan gizi lengkap.",
-            "brand": {
-              "@type": "Brand",
-              "name": "Dmuri Herbal"
-            },
-            "offers": {
-              "@type": "Offer",
-              "url": "https://dmuriherbal.com/susu-vtameen-volten.html",
-              "priceCurrency": "IDR",
-              "price": "180000",
-              "itemCondition": "https://schema.org/NewCondition",
-              "availability": "https://schema.org/InStock"
-            }
-          }
-        ]
-      }
+  ]
+}
 </script>
+
 <link rel="icon" type="image/png" sizes="32x32" href="assets/img/Dmuri-Herbal-Logo.png">
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.6.0/js/all.js" crossorigin="anonymous"></script>
